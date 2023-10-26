@@ -10,6 +10,14 @@ const config = {
     coverageProvider: "v8",
     testEnvironment: "jest-environment-jsdom",
     moduleDirectories: ["node_modules", "src"],
+    globals: {
+        fetch,
+        Request,
+        Response,
+        Headers,
+        FormData,
+        ReadableStream,
+    },
 };
 
 module.exports = config;
