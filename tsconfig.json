@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "esnext",
+        "lib": ["es6", "dom"],
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "strict": true,
+        "skipLibCheck": true,
+        "moduleResolution": "node",
+        "types": ["jest", "@testing-library/jest-dom"]
+    },
+    "include": ["src"]
+}
